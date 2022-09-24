@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
+=======
+@tailwind utilities; 
+>>>>>>> 11d033b44b00eb3df4b3efc05571a8d6ef8970f6
 
 body {
   margin: 0;

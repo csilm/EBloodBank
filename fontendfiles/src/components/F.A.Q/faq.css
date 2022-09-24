@@ -1,0 +1,24 @@
+.body{
+    margin-top: 70px;
+}
+.container{
+    margin-inline: 7%;
+}
+.container2{
+    padding: 0.3%;
+}
+.div-margin{
+    font-family: sans-serif;
+    color: rgb(41, 41, 41);
+    margin: 2%;
+    border: 1px solid rgb(242, 222, 222);
+    border-radius: 3px;
+}
+.div2-margin{
+    padding: 2%;
+    text-align: left;
+}
+.q{
+    color: rgb(169, 68, 66);
+    background-color: rgb(242, 222, 222);
+}
