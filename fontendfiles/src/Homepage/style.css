@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    overflow: hidden;
+    position: relative;
+}
+.main .sub
+{
+  transform: translateY(-100%);
+  transition-duration: .7s;
+}
+.main:hover .sub
+{
+  transform: translateY(0%);
+}
+.main2:hover .rotate
+{
+    transform: rotate(0deg);
+    animation-name: anim;
+    animation-duration:2s;
+    animation-iteration-count: one;
+    transform-origin: right bottom;
+    
+}
+@keyframes anim {
+    0%
+    {
+        transform: rotate(90deg);
+    }
+   100%
+    {
+        transform: rotate(0deg);
+    }
+    
+}

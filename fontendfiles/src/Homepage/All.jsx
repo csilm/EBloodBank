@@ -5,9 +5,11 @@ import Container3 from './Container3'
 
 const All = () => {
   return (
-    <div className='flex flex-wrap w-full h-auto'>
+    <div className= ' absolute flex flex-wrap w-full h-auto'>
     <Container1 />
     <Container2 />
+    <Container3 />
+
     </div>
   )
 }
