@@ -38,3 +38,9 @@
     }
     
 }
+.tbt
+{
+    transition-duration: .5s;
+    transform-origin: left;
+    transform-style: flat;
+}
