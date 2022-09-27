@@ -1,10 +1,12 @@
 
 import './App.css';
-import Faq from './components/F.A.Q/Faq'
+import Gallary from './components/ImageGallary/Gallary';
+// import Faq from './components/F.A.Q/Faq'
 function App() {
   return (
     <div className="App">
-      <Faq/>
+      {/* <Faq/> */}
+      <Gallary/>
     </div>
   );
 }
