@@ -13,7 +13,7 @@ import {
   faCircleChevronLeft,
   faCircleChevronRight,
   faCircleXmark,
-  // faFileImage
+  faFileImage
 } from '@fortawesome/free-solid-svg-icons'
 
 export const Gallary = () => {
@@ -100,14 +100,15 @@ export const Gallary = () => {
           <div className="gallaryWrap">
             {currentPosts && currentPosts.map((slide, index) => {
               return (
-                <div className="single">
-                  <div key={index} onClick={() => handleOpenModel(index)}>
+                <div className="single mainDiv">
+                  <div className='childOne' key={index} onClick={() => handleOpenModel(index)}>
                     <img src={slide.url} alt="" />
                   </div>
-                  {/* <div key={index} onClick={() => handleOpenModel(index)}>
+                  
+                  <div className='childTwo' key={index} onClick={() => handleOpenModel(index)}>
                     <span><FontAwesomeIcon icon={faFileImage} />J&K Initiate Barcoding</span>
                       <p>View photo</p>
-                  </div> */}
+                  </div>
                 </div>
               )
             })}

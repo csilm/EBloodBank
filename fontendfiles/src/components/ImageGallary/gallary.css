@@ -29,7 +29,18 @@
     transform: scale(1.02);
 } */
 
-
+.mainDiv .childTwo{
+    display: none;
+    background: transparent;
+}
+.mainDiv:hover .childTwo{
+    display: flex;
+    width: 100%;
+    background: transparent;
+}
+/* .mainDiv:hover .childOne{
+    display: none;
+} */
 
 .slideWrap{
     position: fixed;

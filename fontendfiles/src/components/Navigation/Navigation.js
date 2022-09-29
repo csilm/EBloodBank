@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import logo from '../images/Rakt5.png';
 
 const Navigation = () => {
@@ -15,11 +15,11 @@ const Navigation = () => {
     return (
         <div className=''>
             <div className='text-right mb-4 text-white'>
-                <a href="" className='p-2 ml-2 bg-[#bf222b]'>A</a>
-                <a href="" className='p-2 ml-2 bg-[#bf222b]'>A+</a>
-                <a href="" className='p-2 ml-2 bg-[#bf222b]'>A</a>
-                <a href="" className='p-2 ml-2 bg-[#bf222b]'>A-</a>
-                <a href="" className='p-2 ml-2 bg-[#bf222b]'>Screen render</a>
+                <a href="#" className='p-2 ml-2 bg-[#bf222b]'>A</a>
+                <a href="#" className='p-2 ml-2 bg-[#bf222b]'>A+</a>
+                <a href="#" className='p-2 ml-2 bg-[#bf222b]'>A</a>
+                <a href="#" className='p-2 ml-2 bg-[#bf222b]'>A-</a>
+                <a href="#" className='p-2 ml-2 bg-[#bf222b]'>Screen render</a>
             </div>
             <hr />
             <nav class=''>
