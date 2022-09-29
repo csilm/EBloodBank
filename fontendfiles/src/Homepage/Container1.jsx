@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const Container1 = () => {
   
   return (
-    <>
+    <div className='w-full h-auto flex flex-wrap justify-center items-center'>
     <Swiper
         spaceBetween={25}
         centeredSlides={true}
@@ -48,7 +48,7 @@ const Container1 = () => {
             />
         </SwiperSlide>
     </Swiper>
-</>
+</div>
   )
 }
 
