@@ -4,26 +4,28 @@ const RegisterVBD = () => {
     return (
         <div className='pl-16 pr-16'>
             <div className='bg-[#FAFAFA] border-2 border-slate-200'>
-            <p className='text-center bg-[#BF222B] text-white text-2xl font-bold p-4'>Camp Registration</p>
+                <p className='text-center bg-[#BF222B] text-white text-2xl font-bold p-4'>
+                    
+                    Camp Registration</p>
                 <form>
                     <div class="grid mb-6 md:grid-cols-2 md:pl-14 gap-x-20 md:mx-24 sm:p-8">
                         <div>
                         <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Organization Type:</label>
                             <select id="countries" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg">
-                                <option selected="">Choose a country</option>
-                                <option value="US">United States</option>
-                                <option value="CA">Canada</option>
-                                <option value="FR">France</option>
-                                <option value="DE">Germany</option>
+                                <option selected="">Select Value</option>
+                                <option value="">Red cross</option>
+                                <option value="">RWA</option>
+                                <option value="">Terapath Yadav</option>
+                                <option value="">others</option>
                             </select>
                         </div>
                         <div>
                             <label for="Organization_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Organization Name:</label>
-                            <input type="text" id="Organization_name" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" placeholder="John" required="" />
+                            <input type="text" id="Organization_name" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" required="" />
                         </div>
                         <div>
                             <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Organizer Name:</label>
-                            <input type="text" id="last_name" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" placeholder="Doe" required="" />
+                            <input type="text" id="last_name" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" required="" />
                         </div>
                         <div>
                             <div class="relative">
@@ -33,11 +35,11 @@ const RegisterVBD = () => {
                             </div>
 
                             <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Organizer Mobile No:</label>
-                            <input type="text" id="company" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" placeholder="Flowbite" required="" />
+                            <input type="text" id="company" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" required="" />
                         </div>
                         <div>
                             <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Organizer Email id:</label>
-                            <input type="tel" id="phone" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="" />
+                            <input type="tel" id="phone" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="" />
                         </div>
                         
                         <div>
@@ -46,7 +48,7 @@ const RegisterVBD = () => {
                         </div>
                         <div>
                             <label for="website" class="block block mb-2 font-medium">Camp Name:</label>
-                            <input type="url" id="website" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" placeholder="flowbite.com" required="" />
+                            <input type="url" id="website" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg" required="" />
                         </div>
                         <div>
                             <label for="visitors" class="block block mb-2 font-medium">Came Address:</label>
@@ -56,18 +58,18 @@ const RegisterVBD = () => {
                         <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">State:</label>
                             <select id="countries" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg">
                                 <option selected="">Chittagong</option>
-                                <option value="US">United States</option>
+                                <option value="US">Cumilla</option>
                                 <option value="CA">Canada</option>
                                 <option value="FR">France</option>
-                                <option value="DE">Germany</option>
+                                <option value="DE">Dhaka</option>
                             </select>
                         </div>
                         <div>
                         <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">District:</label>
                             <select id="countries" class="w-full p-2.5 border border-gray-300 text-sm rounded-lg">
                                 <option selected="">Chittagong</option>
-                                <option value="US">United States</option>
-                                <option value="CA">Canada</option>
+                                <option value="US">Feni</option>
+                                <option value="CA">Dhaka</option>
                                 <option value="FR">France</option>
                                 <option value="DE">Germany</option>
                             </select>
