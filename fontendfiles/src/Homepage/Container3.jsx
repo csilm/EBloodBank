@@ -15,7 +15,7 @@ const Container3 = () => {
     <div className='lg:w-1/2 w-full md:p-10 h-[27rem] flex justify-center items-center my-2'>
       <img className='h-full w-auto' src={Img2} alt="" />
     </div>
-    <div className='lg:w-1/2 w-full md:p-10 h-[27rem] flex justify-center items-center my-2 '> </div>
+    <div className='lg:w-1/2 w-full md:p-10 h-[10rem] flex justify-center items-center my-2 '> </div>
   </div>
   )
 }

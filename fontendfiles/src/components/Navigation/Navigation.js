@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import logo from '../images/Rakt5.png';
 
 const Navigation = () => {
@@ -54,7 +54,7 @@ const Navigation = () => {
                                         <div class="absolute hidden bg-grey-200 group-hover:block">
 
                                             <div class="px-2 pt-2 pb-4 shadow-lg">
-                                                <ul className='grid grid-cols-1 gap-4 w-[200px]'>
+                                                <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
                                                     <li>Blood bank directory</li>
                                                     <li>Blood donation camp</li>
                                                 </ul>
