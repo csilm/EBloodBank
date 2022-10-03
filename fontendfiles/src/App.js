@@ -31,7 +31,7 @@ function App() {
           <Route path="/bloodstock" element={<BloodStock></BloodStock>} ></Route>
           <Route path="/login" element={<Login></Login>} ></Route>
           <Route path="/register" element={<Register></Register>} ></Route>
-          <Route path="/thelasamia" element={<ThelesemiaLogin/>} />
+          <Route path="/thelasamia" element={<Thelasamialogin/>} />
           <Route path="/registerVBD" element={<RegisterVBD/>} />
         </Routes>
       </BrowserRouter>
