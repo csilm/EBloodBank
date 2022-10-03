@@ -1,5 +1,5 @@
 import './App.css';
-// import Donorlogin from './components/Donor Login/Donorlogin';
+import Donorlogin from './components/Donor Login/Donorlogin';
 // import Gallary from './components/ImageGallary/Gallary';
 import Faq from './components/F.A.Q/Faq'
 import VideoGalllery from './components/Video Gallery/VideoGalllery';
@@ -15,13 +15,16 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import DonorRegistration from './components/Donor Registration/DonorRegistration';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<VideoGalllery></VideoGalllery>}>
+          <Route path="/videogallary" element={<VideoGalllery></VideoGalllery>}>
           </Route>
+          <Route path="/" element={<DonorRegistration/>} ></Route>
+          <Route path="/Dlogin" element={<Donorlogin/>} ></Route>
           <Route path="/faq" element={<Faq></Faq>} ></Route>
           <Route path="/bloodstock" element={<BloodStock></BloodStock>} ></Route>
           <Route path="/login" element={<Login></Login>} ></Route>
@@ -35,4 +38,4 @@ function App() {
 }
 
 
-export default App;
+      export default App;
