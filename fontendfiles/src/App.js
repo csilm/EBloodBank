@@ -18,6 +18,8 @@ import {
 import DonorRegistration from './components/Donor Registration/DonorRegistration';
 import RegisterVBD from './components/RegisterVBD/RegisterVBD';
 import Thelasamialogin from './components/ThelasamiaLogin/Thelasamialogin';
+import Notifications from './components/Notifications/Notifications';
+import ContactUs from './components/Contact Us/ContactUs';
 function App() {
   return (
     <div className="App">
@@ -25,7 +27,9 @@ function App() {
         <Routes>
           <Route path="/videogallary" element={<VideoGalllery></VideoGalllery>}>
           </Route>
-          <Route path="/" element={<DonorRegistration/>} ></Route>
+          <Route path="/notification" element={<Notifications/>} ></Route>
+          <Route path="/" element={<ContactUs/>} ></Route>
+          <Route path="/DonorRegistration" element={<DonorRegistration/>} ></Route>
           <Route path="/Dlogin" element={<Donorlogin/>} ></Route>
           <Route path="/faq" element={<Faq></Faq>} ></Route>
           <Route path="/bloodstock" element={<BloodStock></BloodStock>} ></Route>
