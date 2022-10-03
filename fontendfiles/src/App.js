@@ -16,6 +16,8 @@ import {
   Route,
 } from "react-router-dom";
 import DonorRegistration from './components/Donor Registration/DonorRegistration';
+import RegisterVBD from './components/RegisterVBD/RegisterVBD';
+import Thelasamialogin from './components/ThelasamiaLogin/Thelasamialogin';
 function App() {
   return (
     <div className="App">
@@ -29,6 +31,8 @@ function App() {
           <Route path="/bloodstock" element={<BloodStock></BloodStock>} ></Route>
           <Route path="/login" element={<Login></Login>} ></Route>
           <Route path="/register" element={<Register></Register>} ></Route>
+          <Route path="/thelasamia" element={<ThelesemiaLogin/>} />
+          <Route path="/registerVBD" element={<RegisterVBD/>} />
         </Routes>
       </BrowserRouter>
       </div>
