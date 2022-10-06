@@ -20,6 +20,7 @@ import RegisterVBD from './components/RegisterVBD/RegisterVBD';
 import Thelasamialogin from './components/ThelasamiaLogin/Thelasamialogin';
 import Notifications from './components/Notifications/Notifications';
 import ContactUs from './components/Contact Us/ContactUs';
+import BloodDirectory from './components/Blood_Directory/BloodDirectory';
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,7 @@ function App() {
           <Route path="/Dlogin" element={<Donorlogin/>} ></Route>
           <Route path="/faq" element={<Faq></Faq>} ></Route>
           <Route path="/bloodstock" element={<BloodStock></BloodStock>} ></Route>
+          <Route path="/bloodDirectory" element={<BloodDirectory></BloodDirectory>} ></Route>
           <Route path="/login" element={<Login></Login>} ></Route>
           <Route path="/register" element={<Register></Register>} ></Route>
           <Route path="/navigation" element={<Navigation/>} ></Route>
