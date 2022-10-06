@@ -116,19 +116,6 @@ export const Gallary = () => {
           <Pagination postsPerPage={postsPerPage} totalPosts = {posts.length} paginate={paginate} />
         </div>
       </div>
-      {/* <div className='picture-div py-2'>
-        <div className='grid grid-flow-row md:grid-cols-4 sm:grid-cols-1 bg-black'>
-          <div className='m-auto'>
-            <img src={Cimage1} alt="Conference_Image 1" />
-          </div>
-          <div className='m-auto'>
-            <img src={Cimage1} alt="Conference_Image 1" />
-          </div>
-          <div className='m-auto'>
-            <img src={Cimage1} alt="Conference_Image 1" />
-          </div>
-        </div>
-      </div> */}
     </div>
   )
 }

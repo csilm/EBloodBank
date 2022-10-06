@@ -1,10 +1,10 @@
 import './App.css';
 import Donorlogin from './components/Donor Login/Donorlogin';
-// import Gallary from './components/ImageGallary/Gallary';
+import Gallary from './components/ImageGallary/Gallary';
 import Faq from './components/F.A.Q/Faq'
 import VideoGalllery from './components/Video Gallery/VideoGalllery';
-// import Footer from './components/Footer/Footer';
-// import Navigation from "./components/Navigation/Navigation";
+import Footer from './components/Footer/Footer';
+import Navigation from "./components/Navigation/Navigation";
 
 import BloodStock from './components/Blood Stock/BloodStock';
 import Login from './components/Login/Login';
@@ -27,14 +27,17 @@ function App() {
         <Routes>
           <Route path="/videogallary" element={<VideoGalllery></VideoGalllery>}>
           </Route>
+          <Route path="/" element={<Gallary/>} ></Route>
           <Route path="/notification" element={<Notifications/>} ></Route>
-          <Route path="/" element={<ContactUs/>} ></Route>
+          <Route path="/contactUs" element={<ContactUs/>} ></Route>
           <Route path="/DonorRegistration" element={<DonorRegistration/>} ></Route>
           <Route path="/Dlogin" element={<Donorlogin/>} ></Route>
           <Route path="/faq" element={<Faq></Faq>} ></Route>
           <Route path="/bloodstock" element={<BloodStock></BloodStock>} ></Route>
           <Route path="/login" element={<Login></Login>} ></Route>
           <Route path="/register" element={<Register></Register>} ></Route>
+          <Route path="/navigation" element={<Navigation/>} ></Route>
+          <Route path="/footer" element={<Footer/>} ></Route>
           <Route path="/thelasamia" element={<Thelasamialogin/>} />
           <Route path="/registerVBD" element={<RegisterVBD/>} />
         </Routes>
