@@ -21,6 +21,7 @@ import Thelasamialogin from './components/ThelasamiaLogin/Thelasamialogin';
 import Notifications from './components/Notifications/Notifications';
 import ContactUs from './components/Contact Us/ContactUs';
 import BloodDirectory from './components/Blood_Directory/BloodDirectory';
+import All from './Homepage/All';
 function App() {
   return (
     <div className="App">
@@ -28,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/videogallary" element={<VideoGalllery></VideoGalllery>}>
           </Route>
-          <Route path="/" element={<Gallary/>} ></Route>
+          <Route path="/" element={<All/>} ></Route>
           <Route path="/notification" element={<Notifications/>} ></Route>
           <Route path="/contactUs" element={<ContactUs/>} ></Route>
           <Route path="/DonorRegistration" element={<DonorRegistration/>} ></Route>
