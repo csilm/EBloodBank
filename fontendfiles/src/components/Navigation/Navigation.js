@@ -95,7 +95,7 @@ const Navigation = () => {
                                                 <Link to="/DonorRegistration"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Appointment for blood bank</li></Link>
                                                 <Link to="/Dlogin"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Donor login</li></Link>
                                                 <Link to="/login"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Voluntery donor group</li></Link>
-                                                <Link to="/login"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>About blood donation </li></Link>
+                                                <Link to="/aboutBloodDonation"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>About blood donation </li></Link>
                                                 <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Register VDB camp </li></Link>
                                                 </ul>
                                             </div>
@@ -109,7 +109,7 @@ const Navigation = () => {
 
                                             <div class="px-2 pt-2 pb-4 shadow-lg">
                                                 <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
-                                                <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Eraktakosh login </li></Link>
+                                                <Link to="/eRaktokoshLogin"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Eraktakosh login </li></Link>
                                                 <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Add your blood bank </li></Link>
                                                 </ul>
                                             </div>

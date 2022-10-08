@@ -22,6 +22,8 @@ import Notifications from './components/Notifications/Notifications';
 import ContactUs from './components/Contact Us/ContactUs';
 import BloodDirectory from './components/Blood_Directory/BloodDirectory';
 import All from './Homepage/All';
+import All2 from '../src/About_Blood_Donation/All';
+import Login2 from '../src/Eraktkosh_Login/Login';
 function App() {
   return (
     <div className="App">
@@ -42,6 +44,8 @@ function App() {
           <Route path="/footer" element={<Footer/>} ></Route>
           <Route path="/thelasamia" element={<Thelasamialogin/>} />
           <Route path="/registerVBD" element={<RegisterVBD/>} />
+          <Route path="/aboutBloodDonation" element={<All2></All2>} />
+          <Route path="/eRaktokoshLogin" element={<Login2></Login2>} />
         </Routes>
       </BrowserRouter>
       </div>
