@@ -39,7 +39,6 @@ function App() {
           <Route path="/bloodDirectory" element={<BloodDirectory></BloodDirectory>} ></Route>
           <Route path="/login" element={<Login></Login>} ></Route>
           <Route path="/register" element={<Register></Register>} ></Route>
-          <Route path="/navigation" element={<Navigation/>} ></Route>
           <Route path="/footer" element={<Footer/>} ></Route>
           <Route path="/thelasamia" element={<Thelasamialogin/>} />
           <Route path="/registerVBD" element={<RegisterVBD/>} />

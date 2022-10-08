@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 import logo from '../images/Rakt5.png';
 
@@ -48,61 +49,68 @@ const Navigation = () => {
                                 <nav aria-label="primary" class="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
 
                                     <div class="relative group">
-                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none">
+                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none ease-out duration-300">
                                             <span>About us</span>
                                         </button>
                                         <div class="absolute hidden bg-grey-200 group-hover:block">
 
-                                            <div class="px-2 pt-2 pb-4 shadow-lg">
+                                            <div class="px-3 pt-2 pb-4 shadow-lg">
                                                 <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
-                                                    <li>Blood bank directory</li>
-                                                    <li>Blood donation camp</li>
-                                                </ul>
+                                                  <Link to="/">  <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Home</li></Link>
+                                                  <Link to="/">  <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>About</li></Link>
+                                                    <Link to="/notification"><li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Notifications</li> </Link>
+                                                    <Link to="/faq"><li className='px-2'>Faqs</li></Link>
+                                                   <Link> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Gallery</li></Link>
+                                                    <Link to="/videogallary"><li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>video Gallery</li></Link>
+                                                    <Link to="/contactUs"><li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Contact us</li></Link>
+                                                   <Link to="/"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 pb-4 hover:translate-x-1'>Mobile apps</li></Link>                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="relative group">
-                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none">
+                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none ease-out duration-300">
                                             <span>Looking For Blood</span>
                                         </button>
                                         <div class="absolute hidden bg-grey-200 group-hover:block">
 
                                             <div class="px-2 pt-2 pb-4 shadow-lg">
-                                                <ul className='grid grid-cols-1 gap-4 w-[200px]'>
-                                                    <li>Blood bank directory</li>
-                                                    <li>Blood donation camp</li>
+                                                <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
+                                                   <Link to="/bloodstock"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Blood availability</li></Link>
+                                                    <Link to="/bloodDirectory"><li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Blood bank directory</li></Link>
+                                                   <Link to="/thelasamia"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1 pb-4' >Thalassemia request</li>
+                                                   </Link>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="relative group">
-                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none">
+                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none ease-out duration-300">
                                             <span>Want to donate blood</span>
                                         </button>
                                         <div class="absolute hidden group-hover:block">
 
                                             <div class="px-2 pt-2 pb-4 bg-white shadow-lg">
-                                                <ul className='grid grid-cols-1 gap-4 w-[200px]'>
-                                                    <li>Blood bank directory</li>
-                                                    <li>Blood donation camp</li>
-                                                    <li>Blood donation camp</li>
-                                                    <li>Blood donation camp</li>
-                                                    <li>Blood donation camp</li>
-                                                    <li>Blood donation camp</li>
+                                                <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
+                                                <Link to=""> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Blood donation camp</li></Link>
+                                                <Link to="/DonorRegistration"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Appointment for blood bank</li></Link>
+                                                <Link to="/Dlogin"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Donor login</li></Link>
+                                                <Link to="/login"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Voluntery donor group</li></Link>
+                                                <Link to="/login"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>About blood donation </li></Link>
+                                                <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Register VDB camp </li></Link>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="relative group">
-                                        <button class="flex flex-row items-center w-full font-bold px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none">
-                                            <span>Bllod bank log in</span>
+                                        <button class="flex flex-row items-center w-full font-bold px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none ease-out duration-300">
+                                            <span >Blood bank log in</span>
                                         </button>
                                         <div class="absolute hidden bg-grey-200 group-hover:block">
 
                                             <div class="px-2 pt-2 pb-4 shadow-lg">
-                                                <ul className='grid grid-cols-1 gap-4 w-[200px]'>
-                                                    <li>Blood bank directory</li>
-                                                    <li>Blood donation camp</li>
+                                                <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
+                                                <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Eraktakosh login </li></Link>
+                                                <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Add your blood bank </li></Link>
                                                 </ul>
                                             </div>
                                         </div>
