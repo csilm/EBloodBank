@@ -1,0 +1,14 @@
+.shad
+{
+    border: 1px solid red;
+    box-shadow: -0px -0px 5px rgb(94, 87, 87),-2px -0px 5px rgb(83, 76, 76);
+}
+.title
+{
+    position: relative;
+    margin-top: -35px;
+    left: 0%;
+    background-color: white;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
