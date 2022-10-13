@@ -8,13 +8,7 @@ const BloodDirectory = () => {
         <hr />
         <table class="styled-table">
 <thead>
-    <tr>
-        <th className='text-3xl bg-red-700'> Search Blood stock</th>
-        <th className='text-3xl bg-red-700'> </th>
-        <th className='text-3xl bg-red-700'> </th>
-        <th className='text-3xl bg-red-700'></th>
-       
-    </tr>
+  
 </thead>
 <tbody>
     <tr>
