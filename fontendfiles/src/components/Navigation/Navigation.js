@@ -110,7 +110,7 @@ const Navigation = () => {
                                             <div class="px-2 pt-2 pb-4 shadow-lg">
                                                 <ul className='grid grid-cols-1 gap-4 w-[200px] bg-white'>
                                                 <Link to="/eRaktokoshLogin"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Eraktakosh login </li></Link>
-                                                <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>Add your blood bank </li></Link>
+                                                <Link to="/registerVBD"> <li className='px-2 hover:text-red-600 ease-in-out duration-200 hover:translate-x-1'>git  </li></Link>
                                                 </ul>
                                             </div>
                                         </div>
