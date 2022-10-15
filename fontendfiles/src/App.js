@@ -24,6 +24,8 @@ import BloodDirectory from './components/Blood_Directory/BloodDirectory';
 import All from './Homepage/All';
 import All2 from '../src/About_Blood_Donation/All';
 import Login2 from '../src/Eraktkosh_Login/Login';
+import PatientSignUp from './PatientSignup/PatientSignUp';
+import Sidebar from './components/Dashboard/Sidebar';
 function App() {
   return (
     <div className="App">
@@ -46,11 +48,12 @@ function App() {
           <Route path="/registerVBD" element={<RegisterVBD/>} />
           <Route path="/aboutBloodDonation" element={<All2></All2>} />
           <Route path="/eRaktokoshLogin" element={<Login2></Login2>} />
+          <Route path='/registrationPatient' element={<PatientSignUp />} />
+          <Route path='/dashboard' element={<Sidebar />} />
+          
         </Routes>
       </BrowserRouter>
       </div>
-
-
       )
 }
 

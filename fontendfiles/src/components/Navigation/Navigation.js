@@ -49,7 +49,7 @@ const Navigation = () => {
                                 <nav aria-label="primary" class="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
 
                                     <div class="relative group">
-                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase bg-transparent hover:bg-[#bf222b] hover:text-white md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none ease-out duration-300">
+                                        <button class="flex flex-row items-center w-full px-4 py-4 mt-2  text-left uppercase text-white bg-[#bf222b] md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none ease-out duration-300">
                                             <span>About us</span>
                                         </button>
                                         <div class="absolute hidden bg-grey-200 group-hover:block">

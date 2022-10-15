@@ -1,3 +1,5 @@
+import { faDroplet, faHandHoldingDroplet } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const RegisterVBD = () => {
@@ -5,7 +7,7 @@ const RegisterVBD = () => {
         <div className='pl-16 pr-16'>
             <div className='bg-[#FAFAFA] border-2 border-slate-200'>
                 <p className='text-center bg-[#BF222B] text-white text-2xl font-bold p-4'>
-                    
+                    <FontAwesomeIcon className='pr-2' icon={faHandHoldingDroplet} /> 
                     Camp Registration</p>
                 <form>
                     <div class="grid mb-6 md:grid-cols-2 md:pl-14 gap-x-20 md:mx-24 sm:p-8">

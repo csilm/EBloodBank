@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom';
+import Modal from './Modal';
 const Thelasamialogin = () => {
+    const [showModal, setShowModal] = useState(false);
     return (
         <>
             <div className=''>
@@ -56,14 +59,16 @@ const Thelasamialogin = () => {
                                                 <li> Update your Profile</li>
                                                 <li>Manage your Account</li>
                                             </div>
+                                            
+                                                   <Link to="/registrationPatient" className='p-2 grid'> <button className='bg-red-500 text-white font-bold p-2 rounded-lg'>New Registration</button></Link>
+                                                    
                                             <div className='p-2 grid'>
-                                                    <button className='bg-red-500 text-white font-bold p-2 rounded-lg'>New Registration</button>
-                                                    </div>
-                                            <div className='p-2 grid'>
-                                                    <button className='bg-blue-500 text-white font-bold p-2 rounded-lg'>Instructions</button>
+                                                    <button onClick={() => setShowModal(true)} className='bg-blue-500 text-white font-bold p-2 rounded-lg'>Instructions</button>
                                             </div>
-                                            <div className='p-2 grid'>
-                                                    <button className='bg-red-500 text-white font-bold p-2 rounded-lg'>New more</button>
+                                            <div >
+                                                <a href="https://www.eraktkosh.in/BLDAHIMS/hisglobal/bbpublic/mApp/thalassemiaPatientGuide.pdf" target="_blank" className='p-2 grid'>
+                                                <button className='bg-red-500 text-white font-bold p-2 rounded-lg'>New more</button>
+                                                    </a>
                                                     </div>
                                         </div>
                                     </div>
@@ -75,6 +80,9 @@ const Thelasamialogin = () => {
                     </div>
 
                 </div>
+                { showModal ?
+                    <Modal setShowModal={setShowModal} showModal={showModal} /> : null
+                }
             </div>
             <Footer />
         </>
