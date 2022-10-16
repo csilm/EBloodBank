@@ -26,6 +26,9 @@ import All2 from '../src/About_Blood_Donation/All';
 import Login2 from '../src/Eraktkosh_Login/Login';
 import PatientSignUp from './PatientSignup/PatientSignUp';
 import Sidebar from './components/Dashboard/Sidebar';
+import BloodBank from '../src/components/ADD_Blood_Bank/Blood_Bank/Blood_Bank';
+import DonationCamp from './components/Blood_Donation_Camp/DonationCamp';
+import About from './components/AboutPage/About';
 function App() {
   return (
     <div className="App">
@@ -50,6 +53,10 @@ function App() {
           <Route path="/eRaktokoshLogin" element={<Login2></Login2>} />
           <Route path='/registrationPatient' element={<PatientSignUp />} />
           <Route path='/dashboard' element={<Sidebar />} />
+          <Route path='/addBloodBank' element={<BloodBank/>} />
+          <Route path='/gallery' element={<Gallary/>} />
+          <Route path='/camp' element={<DonationCamp/>} />
+          <Route path='/about' element={<About/>} />
           
         </Routes>
       </BrowserRouter>
