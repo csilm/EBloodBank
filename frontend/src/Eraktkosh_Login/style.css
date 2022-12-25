@@ -1,0 +1,12 @@
+.bg3
+{
+    background-image: url('bck1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+}
+.hide
+{
+    display: none;
+}
